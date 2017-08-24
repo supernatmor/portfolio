@@ -1,0 +1,147 @@
+* {
+}
+
+body {
+	background-color: white;
+	background-image: url("https://www.clipartsgram.com/image/1605586439-polyagonal-web-design.jpg");
+}
+
+h1 {
+	font-size: 260%;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	padding-top: 15px;
+}
+
+h2 {
+	font-size: 26px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: steelblue;
+
+}
+
+h3 {
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	padding-top: 5px;
+	color: steelblue;
+}
+
+h4 {
+	font-size: 18px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.mainbar {
+	width: 100%;
+	height: 2px;
+	background: lightgray;
+}
+
+.connectbar {
+	width: 100%;
+	height: 2px;
+	background: lightgray;
+	margin-top: 1px;
+	margin-bottom: 8px;
+}
+
+.name {
+	background: steelblue;
+	width: 300px;
+	height: 100%;
+	margin-left: 75px;
+	padding-left: 15px;
+}
+
+.links {
+	float: right;
+	text-align: center;
+	width: 25%;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	font-size: 25px;
+	padding-top: 5px;
+	color: steelblue;
+}
+
+.mainbox {
+	width: 100%;
+	height: 100%;
+
+}
+
+.img {
+	float: left;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+.aboutme, .portfolio, .contact {
+	background: whitesmoke;
+	width: 40%;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	margin-left: 75px;
+	position: absolute;
+	top: 150px;
+
+}
+
+
+.connect {
+	background: whitesmoke;
+	width: 12%;
+	padding: 10px;
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	right: 100px;
+	margin-right: 25px;
+
+}
+
+.footer {
+	background: gray;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+
+}
+
+.header {
+	background: whitesmoke;
+	width: 100%;
+	height: 85px;
+}
+
+.button {
+	width: 110px;
+	height: 55px;
+	font-size: 210%;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	background: steelblue;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
